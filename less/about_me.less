@@ -1,0 +1,325 @@
+.about_me{
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+
+        .flex_bet;
+        
+        aside{
+             
+
+              &:nth-child(1){
+                width: 426px;
+                position: relative;
+
+                img{
+                    width: 65px;
+                    &:nth-child(1){
+                        position: absolute;
+                        top: -75px;
+                        left: 0;
+
+                    }
+
+                    &:nth-child(2){
+                        position: absolute;
+                        top: -20px;
+                        right: 0;
+
+                    }
+
+                    &:nth-child(3){
+                        position: absolute;
+                        bottom: -120px;
+                        right: 190px;
+
+
+                    }
+
+
+                }
+                
+                article{
+                    width: 389px;
+
+                    h2{
+                        .title;
+                    }
+
+                    p{
+                       .txt;
+                       opacity: 0.75;
+                       color: rgba( 238, 238, 238, 0.75);
+
+                       span{
+                        color: rgba( 238, 238, 238, 1);
+                        font-weight: 700;
+                        cursor: pointer;
+
+
+
+                       }
+
+
+                    }
+
+                }
+
+              }
+
+              &:nth-child(2){
+                position: relative;
+
+                           img{
+                                &:nth-child(1){
+
+                                    width: 500px;
+
+                                }
+
+                                &:nth-child(2){
+                                    width: 255px;
+                                    position: absolute;
+                                    bottom: -80px;
+                                    left: 125px;
+                                    // transform: rotate(90deg);
+
+
+                                }
+
+                           }
+
+              }
+
+        }
+        
+
+    }
+}
+
+@media(max-width:1250px){
+    .about_me{
+        .container{
+            width: 1000px;
+            aside{
+                &:nth-child(1){
+                    
+                    
+
+                    img{
+                        &:nth-child(1){
+                            
+
+                        }
+                        &:nth-child(2){
+                            
+                           
+                            
+                        }
+                        &:nth-child(3){
+                            
+                            
+                        }
+                    }
+
+                    article{
+                       
+                        
+
+                        h2{
+                            font-size: 44px;
+                            
+                        }
+                    }
+                }
+
+                &:nth-child(2){
+                    
+                    img{
+                        &:nth-child(1){
+                            width: 400px;
+                        }
+                        &:nth-child(2){
+                            left: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1040px){
+    .about_me{
+        .container{
+            width: 800px;
+            aside{
+                &:nth-child(1){
+                    
+                    width: 300px;
+
+                    img{
+                        &:nth-child(1){
+                            
+
+                        }
+                        &:nth-child(2){
+                                  
+                        }
+                        &:nth-child(3){
+                            
+                            
+                        }
+                    }
+
+                    article{
+                        width:300px;
+                        h2{
+                            font-size: 40px;
+                            
+                        }
+                    }
+                }
+
+                &:nth-child(2){
+                    
+                    img{
+                        &:nth-child(1){
+                            width: 350px;
+                            
+                        }
+                        &:nth-child(2){
+                            width: 240px;
+                            left: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:840px){
+    .about_me{
+        .container{
+            width: 720px;
+            aside{
+                &:nth-child(1){
+                    width:680px;
+                    
+
+                    img{
+                        &:nth-child(1){
+                            
+
+                        }
+                        &:nth-child(2){
+                            right: 320px;
+                                  
+                        }
+                        &:nth-child(3){
+                            right: 320px;
+                            width: 100px;
+
+                            
+                            
+                        }
+                    }
+
+                    article{
+                        width:720px;
+                        h2{
+                            font-size: 56px;
+                            
+                        }
+                        p{
+                            font-size: 40px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+
+                &:nth-child(2){
+                    display: none;
+                    
+                    img{
+                        &:nth-child(1){
+                            width: 300px;
+                            
+                        }
+                        &:nth-child(2){
+                            width: 200px;
+                            left: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:450px){
+    .about_me{
+        .container{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            aside{
+                &:nth-child(1){
+                    width: 300px;
+                    
+                    
+
+                    img{
+                        &:nth-child(1){
+                            
+
+                        }
+                        &:nth-child(2){
+                            right: -42px;
+                            
+                                  
+                        }
+                        &:nth-child(3){
+                            right: 20px;
+                            
+                            
+                        }
+                    }
+
+                    article{
+                       
+                        h2{
+                            
+                            
+                        }
+                        p{
+                            font-size: 20px;
+                            width: 300px;
+                        }
+                    }
+                }
+
+                &:nth-child(2){
+                    display: none;
+                    
+                    img{
+                        &:nth-child(1){
+                           
+                            
+                        }
+                        &:nth-child(2){
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

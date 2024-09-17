@@ -1,0 +1,57 @@
+@clr1: rgb(34, 40, 49); // черный
+@clr2:rgb(255, 255, 255) ; //белый
+@clr3 : rgb(0, 173, 181); // синий
+@clr4 : rgb(238, 238, 238);//серый
+@font: "Poppins", sans-serif;// 
+.title{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 86px;
+
+    span{
+        color: @clr3;
+        font-weight: 700;
+
+
+    }
+}
+.txt{
+    color: @clr4;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+.flex_bet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;        
+}
+.flex_cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: 100%;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+body, textarea, input, a, button{
+    font-family: @font;
+}
+body{
+    background: @clr1;
+    color: @clr2;
+}
+
+html{
+    scroll-behavior: smooth;
+}
